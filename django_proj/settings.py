@@ -138,6 +138,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'   #<-- NEEDED FOR EC2 HOSTING
 
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__)) #<--Added try fixing STATIC_ROOT error
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static') #<--Added try fixing STATIC_ROOT error
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
