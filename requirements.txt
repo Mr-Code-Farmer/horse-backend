@@ -1,0 +1,11 @@
+asgiref
+Django
+django-cors-headers
+djangorestframework==3.15.2
+#pillow
+python-dotenv==1.0.1
+sqlparse
+tzdata
+mysqlclient #--Contains MySQLdb module. Most commonly used Python packages for MySQL. Written in C.
+mysql-connector-python #--Contains mysql.connector module. Written entirely in Python.
+pymysql #--Contains pymysql module. Written entirely in Python.
