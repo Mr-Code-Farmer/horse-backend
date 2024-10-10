@@ -6,6 +6,7 @@ djangorestframework==3.15.2
 python-dotenv==1.0.1
 sqlparse
 tzdata
-mysqlclient #--Contains MySQLdb module. Most commonly used Python packages for MySQL. Written in C.
-mysql-connector-python #--Contains mysql.connector module. Written entirely in Python.
-pymysql #--Contains pymysql module. Written entirely in Python.
+#---ubuntu trouble installing
+#mysqlclient #--Contains MySQLdb module. Most commonly used Python packages for MySQL. Written in C.
+#mysql-connector-python #--Contains mysql.connector module. Written entirely in Python.
+#pymysql #--Contains pymysql module. Written entirely in Python.
