@@ -157,3 +157,8 @@ CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1:8000/api",    
     "http://127.0.0.1:8000",
 ]
+
+#try to fix issues with this
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': []
+}
