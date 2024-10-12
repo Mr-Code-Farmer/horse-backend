@@ -148,4 +148,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True   #<-- added, but this will allow all websites to make requests(only good for dev)
 
-CSRF_TRUSTED_ORIGINS = ["https://crimetea.com", "https://*.crimetea.com", "https://api.crimetea.com"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://crimetea.com",
+    "https://*.crimetea.com",
+    "https://api.crimetea.com",
+    "http://127.0.0.1:8000/api/books",
+    "http://127.0.0.1:8000/api",    
+    "http://127.0.0.1:8000",
+]
