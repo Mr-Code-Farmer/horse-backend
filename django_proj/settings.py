@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k0qidreq)mr%e6_!__)qi6%p=edpzsy%-@tfmx42g+dyidkj$f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']   #<-- MAY BE NEEDED FOR EC2 HOSTING
 
@@ -149,7 +149,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True   #<-- added, but this will allow all websites to make requests(only good for dev)
 
-CORS_ORIGIN_ALLOW_ALL = True #????
+CORS_ORIGIN_ALLOW_ALL = True
 
 
 CSRF_TRUSTED_ORIGINS = [
