@@ -24,7 +24,7 @@ urlpatterns = [
     path('api/', include('api.urls')) #This includes all the urls from our API App
 ]
 
- #Added for hosting
+"""  #Added for hosting
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
-    urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_URL)
+    urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_URL) """
